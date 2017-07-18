@@ -1,12 +1,75 @@
+* {
+  font-family: helvetica;
+}
+
+header, body {
+  text-align: center;
+}
+
+header, .design-origin {
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color: dimgray;
+}
+
+header h1, .design-origin, #process, h3  {
+  font-weight: bold;
+}
+
+header h1, .design-origin, a, nav ul {
+  color: white;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+#process {
+  font-size: 32px;
+}
+
+.design-origin, h3 {
+  font-size: 23px;
+}
+
+.identify p, .understand p, .execute p, .contact li {
+  font-size: 14px;
+}
 
 nav ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul, .contact li {
+    line-height: 2;
+}
+
+a {
+  font-size: 18px;
 }
 
 .about-company ul {
    list-style: none;
    margin: 0;
    padding: 0;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer {
+  text-align: left;
+  background-color: dimgray;
+}
+
+#copyright {
+  font-size: 11px;
+}
+
+.contact li {
+  font-weight: normal;
 }
